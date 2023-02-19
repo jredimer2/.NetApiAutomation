@@ -10,21 +10,22 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/bin/Debug/net7.0/.NetApiAutomation.dll",
+            "program": "C:/Git/.NetApiAutomation/bin/Debug/net7.0/.NetApiAutomation.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "C:/Git/.NetApiAutomation",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
-            "stopAtEntry": false
+            "stopAtEntry": false,
+            "justMyCode": false
         },
         {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/path/to/nunit3-console.exe",
+            "program": ".netapiautomation/path/to/nunit3-console.exe",
             "args": [
-                "${workspaceFolder}/path/to/your-test-project.dll",
+                ".netapiautomation/path/to/your-test-project.dll",
                 "--noresult"
             ],
             "cwd": "${workspaceFolder}",
