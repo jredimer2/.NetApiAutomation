@@ -15,10 +15,10 @@ namespace ReqresInApiTests
         [SetUp]
         public void Setup()
         {
-            IConfigurationBuilder builder = (IConfigurationBuilder)new ConfigurationBuilder().AddUserSecrets<ApiTests>();
-            var configuration = builder.Build();
-            string username = configuration["Email"] ?? "";
-            string password = configuration["Password2"] ?? "";
+            // IConfigurationBuilder builder = (IConfigurationBuilder)new ConfigurationBuilder().AddUserSecrets<ApiTests>();
+            // var configuration = builder.Build();
+            // string username = configuration["Email"] ?? "";
+            // string password = configuration["Password2"] ?? "";
 
             client = new RestClient("https://reqres.in/api");
         }
