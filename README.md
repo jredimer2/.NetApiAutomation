@@ -16,7 +16,7 @@
 # Adding Secrets
 dotnet user-secrets init
 dotnet user-secrets set "Email" "eve.holt@reqres.in" 
-dotnet user-secrets set "Password" "cityslicka" 
+dotnet user-secrets set "Password" "password" 
 
 
 # Using CLI
